@@ -13,6 +13,13 @@
 		7D2A0CB424899A9500401B84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D2A0CB324899A9500401B84 /* Assets.xcassets */; };
 		7D2A0CB724899A9500401B84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D2A0CB624899A9500401B84 /* Preview Assets.xcassets */; };
 		7D2A0CBA24899A9500401B84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2A0CB824899A9500401B84 /* LaunchScreen.storyboard */; };
+		7D2A0CC224899AAE00401B84 /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2A0CC124899AAE00401B84 /* ImageClassifier.swift */; };
+		7D2A0CC424899AB800401B84 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2A0CC324899AB800401B84 /* Extensions.swift */; };
+		7D2A0CC624899ABF00401B84 /* MNISTClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7D2A0CC524899ABF00401B84 /* MNISTClassifier.mlmodel */; };
+		7D2A0CC824899AC700401B84 /* DrawingPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2A0CC724899AC700401B84 /* DrawingPad.swift */; };
+		7D2A0CCA24899ACE00401B84 /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2A0CC924899ACE00401B84 /* Drawing.swift */; };
+		7D2A0CCC24899AD700401B84 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2A0CCB24899AD700401B84 /* CalculatorBrain.swift */; };
+		7D2A0CCE24899AE600401B84 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2A0CCD24899AE600401B84 /* CalculatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		7D2A0CB624899A9500401B84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7D2A0CB924899A9500401B84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D2A0CBB24899A9500401B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D2A0CC124899AAE00401B84 /* ImageClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
+		7D2A0CC324899AB800401B84 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7D2A0CC524899ABF00401B84 /* MNISTClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNISTClassifier.mlmodel; sourceTree = "<group>"; };
+		7D2A0CC724899AC700401B84 /* DrawingPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingPad.swift; sourceTree = "<group>"; };
+		7D2A0CC924899ACE00401B84 /* Drawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
+		7D2A0CCB24899AD700401B84 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		7D2A0CCD24899AE600401B84 /* CalculatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +73,12 @@
 				7D2A0CAD24899A9200401B84 /* AppDelegate.swift */,
 				7D2A0CAF24899A9200401B84 /* SceneDelegate.swift */,
 				7D2A0CB124899A9200401B84 /* ContentView.swift */,
+				7D2A0CC124899AAE00401B84 /* ImageClassifier.swift */,
+				7D2A0CCF24899B9400401B84 /* Calculator */,
+				7D2A0CD024899B9E00401B84 /* DrawingPad */,
+				7D2A0CC324899AB800401B84 /* Extensions.swift */,
 				7D2A0CB324899A9500401B84 /* Assets.xcassets */,
+				7D2A0CC524899ABF00401B84 /* MNISTClassifier.mlmodel */,
 				7D2A0CB824899A9500401B84 /* LaunchScreen.storyboard */,
 				7D2A0CBB24899A9500401B84 /* Info.plist */,
 				7D2A0CB524899A9500401B84 /* Preview Content */,
@@ -73,6 +92,24 @@
 				7D2A0CB624899A9500401B84 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7D2A0CCF24899B9400401B84 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				7D2A0CCD24899AE600401B84 /* CalculatorView.swift */,
+				7D2A0CCB24899AD700401B84 /* CalculatorBrain.swift */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		7D2A0CD024899B9E00401B84 /* DrawingPad */ = {
+			isa = PBXGroup;
+			children = (
+				7D2A0CC724899AC700401B84 /* DrawingPad.swift */,
+				7D2A0CC924899ACE00401B84 /* Drawing.swift */,
+			);
+			path = DrawingPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +183,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D2A0CC424899AB800401B84 /* Extensions.swift in Sources */,
+				7D2A0CC224899AAE00401B84 /* ImageClassifier.swift in Sources */,
 				7D2A0CAE24899A9200401B84 /* AppDelegate.swift in Sources */,
 				7D2A0CB024899A9200401B84 /* SceneDelegate.swift in Sources */,
+				7D2A0CCA24899ACE00401B84 /* Drawing.swift in Sources */,
 				7D2A0CB224899A9200401B84 /* ContentView.swift in Sources */,
+				7D2A0CCE24899AE600401B84 /* CalculatorView.swift in Sources */,
+				7D2A0CCC24899AD700401B84 /* CalculatorBrain.swift in Sources */,
+				7D2A0CC824899AC700401B84 /* DrawingPad.swift in Sources */,
+				7D2A0CC624899ABF00401B84 /* MNISTClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
